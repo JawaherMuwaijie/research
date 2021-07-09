@@ -1,0 +1,67 @@
+{
+    "basic_info": {
+        "name": "Uljad Berdica",
+        "title": "Electrical Engineer     |    Developer",
+        "description": "",
+        "social": [
+          {
+            "name": "github",
+            "url": "https://github.com/uljadberdica1000",
+            "class": "fab fa-github"
+          },
+          {
+            "name": "linkedin",
+            "url": "https://linkedin.com/in/uljadberdica",
+            "class": "fab fa-linkedin"
+          }
+        ],
+        "image": "MyProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+          {
+            "name": "C++",
+            "class": "devicon-cplusplus-plain",
+            "level": "95"
+          },
+          {
+            "name": "Python",
+            "class": "devicon-python-plain",
+            "level": "15"
+          },
+
+          {
+            "name": "Git",
+            "class": "devicon-git-plain",
+            "level": "15"
+          },
+          {
+            "name": "nodejs",
+            "class": "devicon-nodejs-plain",
+            "level": "15"
+          },
+          {
+            "name": "HTML",
+            "class": "devicon-html5-plain",
+            "level": "15"
+          },
+          {
+            "name": "CSS",
+            "class": "devicon-css3-plain",
+            "level": "15"
+          },
+          {
+            "name": "Django",
+            "class": "devicon-django-plain",
+            "level": "15"
+          },
+          {
+            "name": "MySql",
+            "class": "devicon-mysql-plain",
+            "level": "100"
+          }
+      ]
+    }
+  }
+
+
