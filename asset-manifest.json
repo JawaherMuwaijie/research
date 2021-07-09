@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uljadberdica/static/css/main.97252073.chunk.css",
+    "main.css": "/uljadberdica/static/css/main.19e92c04.chunk.css",
     "main.js": "/uljadberdica/static/js/main.04e3c0f3.chunk.js",
     "main.js.map": "/uljadberdica/static/js/main.04e3c0f3.chunk.js.map",
     "runtime-main.js": "/uljadberdica/static/js/runtime-main.299b2b82.js",
@@ -9,17 +9,17 @@
     "static/js/2.e5ef10e6.chunk.js": "/uljadberdica/static/js/2.e5ef10e6.chunk.js",
     "static/js/2.e5ef10e6.chunk.js.map": "/uljadberdica/static/js/2.e5ef10e6.chunk.js.map",
     "index.html": "/uljadberdica/index.html",
-    "precache-manifest.1b7fe8471defd3e637c7ee797e132bc6.js": "/uljadberdica/precache-manifest.1b7fe8471defd3e637c7ee797e132bc6.js",
+    "precache-manifest.6f6d08651f593e0774f3bdacbed0db2d.js": "/uljadberdica/precache-manifest.6f6d08651f593e0774f3bdacbed0db2d.js",
     "service-worker.js": "/uljadberdica/service-worker.js",
     "static/css/2.9e3fc118.chunk.css.map": "/uljadberdica/static/css/2.9e3fc118.chunk.css.map",
-    "static/css/main.97252073.chunk.css.map": "/uljadberdica/static/css/main.97252073.chunk.css.map",
+    "static/css/main.19e92c04.chunk.css.map": "/uljadberdica/static/css/main.19e92c04.chunk.css.map",
     "static/js/2.e5ef10e6.chunk.js.LICENSE.txt": "/uljadberdica/static/js/2.e5ef10e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.299b2b82.js",
     "static/css/2.9e3fc118.chunk.css",
     "static/js/2.e5ef10e6.chunk.js",
-    "static/css/main.97252073.chunk.css",
+    "static/css/main.19e92c04.chunk.css",
     "static/js/main.04e3c0f3.chunk.js"
   ]
 }
