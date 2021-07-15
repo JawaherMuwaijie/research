@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello,",
-    "description": ["I am an Electrical Engineering senior at NYU with a concentration in Robot Vision and Cybersecurity. I love doing research with the purpose of creating tools and products that help people improve their lives and advance their research. I seek to pursue a PhD to be able to further human knowledge in Electronics and Robotics. ","In addition to majoring in Electrical Engineering, my research ranges from high performance Analog-Digital-Converters in bioimpedance electronics and CAD designs to Computer Vision applications in Neuroimaging and Point Cloud perceptions. Through my diverse course load I have always aimed to be as multifaceted and technically well-rounded as possible. This way I am able to meaningfully apply my knowledge across domains and bravely push my exploration to new challenging directions. My work has been published in prestigous IEEE conferences like IROS. "],
+    "description": ["I am an Electrical Engineering senior at NYU with a concentration in Robot Vision and Cybersecurity. I love doing research with the purpose of creating tools and products that help people improve their lives and advance their research. I seek to pursue a PhD to be able to further human knowledge in Electronics and Robotics. ","In addition to majoring in Electrical Engineering, my research ranges from high performance Analog-Digital-Converters in bioimpedance electronics and CAD designs to Computer Vision applications in Neuroimaging and Point Cloud perceptions. Through my diverse course load I have always aimed to be as multifaceted and technically well-rounded as possible. This way I am able to meaningfully apply my knowledge across domains and bravely push my exploration to new challenging directions. My work has been published in prestigous IEEE conferences like IROS. The following is a compilation of the projects I have found the most challenging and representative of my research work so far."],
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -10,6 +10,48 @@
     }
   },
   "projects": [
+    {
+      "title": "Spines",
+      "startDate": "2021",
+      "description": "It will be worth the wait!!!",
+      "images": [
+        "images/portfolio/Coming-Soon.jpg"
+
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "The Pressure is on You",
+      "startDate": "2021",
+      "description": "This project was part of the Embedded Systems Class in Spring 2021. The objective was to build a semiautomated blood pressure and heart rate measuring device by interfacing with an I2C Honeywell ® Pressure Sensor through an ATmega32u4 microcontroller. In order to challenge ourselves further, our group decided to use pyserial in order to plot the pressure measurements in real time and create a user interface that allows for data to be imported from older time points or collected in real time from scratch.",
+      "images": [
+          "images/portfolio/pulse/analysis.png",
+          "images/portfolio/pulse/I2C.jpg",
+          "images/portfolio/pulse/cuff_measurement.jpg",
+          "images/portfolio/pulse/pressure_raw.jpg"
+      ],
+      "url": "https://github.com/uljadberdica1000/Embedded_Challenge_Spr21",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-arduino-plain",
+          "name": "Arduino"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
     {
       "title": "Multi-Robot Simulation Framework",
       "startDate": "2021",
@@ -85,11 +127,14 @@
       ]
     },
     {
-      "title": "iGEM 2019",
+      "title": "Volatect - iGEM 2019",
       "startDate": "2019",
       "description": "I was project manager of the engineering research and development team in the summer for my university's iGEM team which was competing in the Diagnostics Track. Our project is named Volatect: a point of care diagnostics device coupled with a results database and API, enabling the swift detection, surveillance and control of epidemic-prone diseases. The novel DETECTR technique, combining Recombinase Polymerase Amplification and CRISPR-Cas12, is applied to collected saliva samples on a proprietary microfluidic chip to detect a customizable assay of infectious diseases.",
       "images": [
-          ""
+          "images/portfolio/iGEM/logo.jpg",
+          "images/portfolio/iGEM/fluidics.jpg",
+          "images/portfolio/iGEM/fluidics2.jpg",
+          "images/portfolio/iGEM/device.jpg"
       ],
       "url": "https://2019.igem.org/Team:NYU_Abu_Dhabi/Description",
       "technologies": [
@@ -108,52 +153,6 @@
         {
           "class": "devicon-bootstrap-plain",
           "name": "Bootstrap Studio"
-        }
-      ]
-    },
-    {
-      "title": "Spines",
-      "startDate": "2019",
-      "description": "",
-      "images": [
-          ""
-      ],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Finger on the Pulse",
-      "startDate": "2019",
-      "description": "",
-      "images": [
-          ""
-      ],
-      "url": "https://github.com/Dorota1997/BeerApp",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
         }
       ]
     },
