@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6f7d5e396bce4d324470420a728412d",
+    "revision": "724b6b9aed7c4c68acbadf309d8b0d67",
     "url": "/uljadberdica/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uljadberdica/static/css/2.9e3fc118.chunk.css"
   },
   {
-    "revision": "a7c5e9e18b34a15706b8",
-    "url": "/uljadberdica/static/css/main.6ef8833e.chunk.css"
+    "revision": "74d4db2ca45aec75cfc2",
+    "url": "/uljadberdica/static/css/main.cf9d9b15.chunk.css"
   },
   {
     "revision": "588bc2408dc36f27c42a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uljadberdica/static/js/2.e5ef10e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7c5e9e18b34a15706b8",
+    "revision": "74d4db2ca45aec75cfc2",
     "url": "/uljadberdica/static/js/main.c44bcd9b.chunk.js"
   },
   {
