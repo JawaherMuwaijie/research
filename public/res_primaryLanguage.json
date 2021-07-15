@@ -1,330 +1,298 @@
 {
-    "basic_info": {
-      "description_header": "Hello,",
-      "description": ["I am an Electrical Engineering senior at NYU with a concentration in Robot Vision and Cybersecurity. I love doing research with the purpose of creating tools and products that help people improve their lives and advance their research. I seek to pursue a PhD to be able to further human knowledge in Electronics and Robotics. ","In addition to majoring in Electrical Engineering, my research ranges from high performance Analog-Digital-Converters in bioimpedance electronics and CAD designs to Computer Vision applications in Neuroimaging and Point Cloud perceptions. Through my diverse course load I have always aimed to be as multifaceted and technically well-rounded as possible. This way I am able to meaningfully apply my knowledge across domains and bravely push my exploration to new challenging directions. My work has been published in prestigous IEEE conferences like IROS. "],
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hello,",
+    "description": ["I am an Electrical Engineering senior at NYU with a concentration in Robot Vision and Cybersecurity. I love doing research with the purpose of creating tools and products that help people improve their lives and advance their research. I seek to pursue a PhD to be able to further human knowledge in Electronics and Robotics. ","In addition to majoring in Electrical Engineering, my research ranges from high performance Analog-Digital-Converters in bioimpedance electronics and CAD designs to Computer Vision applications in Neuroimaging and Point Cloud perceptions. Through my diverse course load I have always aimed to be as multifaceted and technically well-rounded as possible. This way I am able to meaningfully apply my knowledge across domains and bravely push my exploration to new challenging directions. My work has been published in prestigous IEEE conferences like IROS. "],
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Multi-Robot Simulation Framework",
+      "startDate": "2021",
+      "description": "Our team developed a framework that bridges the gap between mobile printing robots and realistic material simulations. This framework that includes particle-based viscoelastic fluid simulation and particle-to-mesh conversion in the widely adopted Gazebo robotics simulator, avoiding the bottlenecks of traditional additive manufacturing simulation approaches. This framework is the first of its kind  that enables the simulation of robot arms or mobile manipulators together with viscoelastic fluids.",
+      "images": [
+          "images/portfolio/M3DP/dropping.png",
+          "images/portfolio/M3DP/param1.jpg",
+          "images/portfolio/M3DP/pipeline1.jpg",
+          "images/portfolio/M3DP/robotsworks.png",
+          "images/portfolio/M3DP/teaser.png"
+      ],
+      "url": "https://www.linkedin.com/posts/uljadberdica_stem-robot-gazebo-activity-6816239887751110656-MEAI",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-bitbucket-original",
+          "name": "Bitbucket"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Multi-Robot Simulation",
-        "startDate": "2020",
-        "description": "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
-        "images": [
-            "images/portfolio/M3DP/header.png",
-            "images/portfolio/portfolio/about.png",
-            "images/portfolio/portfolio/projects.png",
-            "images/portfolio/portfolio/skills.png",
-            "images/portfolio/portfolio/experience.png"
-        ],
-        "url": "https://github.com/Dorota1997/react-frontend-dev-portfolio",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-sass-original",
-            "name": "Sass"
-          }
+    {
+      "title": "Heart Rate Measurement PCB",
+      "startDate": "2020",
+      "description": "This project was the finalization of my Electronics I class. The heart rate monitor connects to the electrode and outputs the final QRS waveform that can be measured with an oscilloscope connected to the exposed pins. An extensive literature review was performed on the physiology of the generation of the cardiac muscle signal and the forms of its conduction. The ECG device was implemented with a right lec circuit for the common mode rejection, an instrumentation amplifier tested on Cadence Virtuoso and an active band-pass filter along with the necessary decoupling capacitors. Altium was used to prepare the final PCB for manufacture.",
+      "images": [
+          "images/portfolio/ECG/pcb.jpg",
+          "images/portfolio/ECG/schematic1.jpg"
+      ],
+      "url": "https://drive.google.com/drive/folders/1FGnCuJrwKWiO48tweAPvH9bvPuundnva?usp=sharing",
+      "technologies": [
+        {
+          "class": "devicon-matlab-plain",
+          "name": "Altium"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "Cadence"
+        },
+        {
+          "class": "devicon-matlab-plain colored",
+          "name": "Matlab"
+        }
+      ]
+    },
+    {
+      "title": "Cellular Resource Allocation",
+      "startDate": "2020",
+      "description": "Cells are complex biochemical systems functioning under finite resources which are shared between growth and production. The process and outcomes of this allocation are not fully understood. This paper details a model consisting of coupled differential equations that seeks to shed light over this phenomena. This deterministic model focuses on allocation trade-offs and is based on a sufficient level of complexity that does not obscure the core biochemistry of the products. Equations used to model the spread of epidemics were adapted for such purposes. ",
+      "images": [
+          "images/portfolio/celldynamics/bigpic.jpg",
+          "images/portfolio/celldynamics/expl1.jpg",
+          "images/portfolio/celldynamics/expl2.jpg",
+          "images/portfolio/celldynamics/eqs.jpg"
+
+      ],
+      "url": "https://drive.google.com/drive/folders/1N1bPkXPKm2DLwyBhe4QnnXXe3i8_zhfA",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "iGEM 2019",
+      "startDate": "2019",
+      "description": "I was project manager of the engineering research and development team in the summer for my university's iGEM team which was competing in the Diagnostics Track. Our project is named Volatect: a point of care diagnostics device coupled with a results database and API, enabling the swift detection, surveillance and control of epidemic-prone diseases. The novel DETECTR technique, combining Recombinase Polymerase Amplification and CRISPR-Cas12, is applied to collected saliva samples on a proprietary microfluidic chip to detect a customizable assay of infectious diseases.",
+      "images": [
+          ""
+      ],
+      "url": "https://2019.igem.org/Team:NYU_Abu_Dhabi/Description",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        },
+        {
+          "class": "devicon-arduino-plain",
+          "name": "Arduino"
+        },
+        {
+          "class": "devicon-raspberrypi-line",
+          "name": "Raspbery Pi"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap Studio"
+        }
+      ]
+    },
+    {
+      "title": "Spines",
+      "startDate": "2019",
+      "description": "",
+      "images": [
+          ""
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Finger on the Pulse",
+      "startDate": "2019",
+      "description": "",
+      "images": [
+          ""
+      ],
+      "url": "https://github.com/Dorota1997/BeerApp",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "WeFxBo",
+      "startDate": "2018",
+      "description": "Create page project about Billboard.js library that allows to add interesting charts to the pages.",
+      "images": [
+          "images/portfolio/wefxbo/setup.jpg",
+          "images/portfolio/wefxbo/curl.jpg"
+      ],
+      "url": "https://drive.google.com/drive/folders/16a6hw7-Kh-zVdPvd2BmkfIh7-mSgjqgx",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        }
+      ]
+    },
+    {
+      "title": "Explore Mars Competition",
+      "startDate": "2018",
+      "description": "This is the first project of my undergraduate research career and it proposes a theoretical model of Molten Salt Reactor and an ANSYS Fluent simulation. The chosen fuel and the plane design were meant to enhance low speed travel and exploration. Thorium was chosen due its inability to be weaponized and its abundance both on Earth and Mars. The plane is meant to push humanity to a new age of exploration and sustainable living on a terraformed Mars.",
+      "images": [
+          "images/portfolio/Mars/sim1.jpg",
+          "images/portfolio/Mars/okoyama1.jpg",
+          "images/portfolio/Mars/saying1.jpg"
+      ],
+      "url": "https://drive.google.com/file/d/1mPoUzyauq40XAx-htKS6-bZ7_M4kePRS/view?usp=sharing",
+      "technologies": [
+        {
+          "class": "devicon-matlab-plain",
+          "name": "Matlab"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "Ansys"
+        },
+        {
+          "class": "devicon-matlab-plain",
+          "name": "Solidworks"
+        }
+        
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "New York University Abu Dhabi",
+      "title": "Electrical Engineering Representative",
+      "years": "05.2021 - 05.2022 ",
+      "mainTech": [
+          "GitHub , Slack"
+      ],
+      "technologies": [
+          "Website Maintenance",
+          "Event Organizing",
+          "Q&A Sessions",
+          "Orientation",
+          "Mentoring"
+      ]
+    },
+    {
+      "company": "Integrated BioElectronics Laboratory",
+      "title": "Embedded systems programmer",
+      "years": "02.2021 - 10.2021",
+      "mainTech": [
+          "C++ , Python"
+      ],
+      "technologies": [
+          "PlatformIO",
+          "Arduino",
+          "ATSAM3X" ,
+          "nRF528x SoC",
+          "Altium",
+          "Matlab",
+          "Python"
+      ]
+    },
+    {
+      "company": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "title": "Vice Chair of the IEEE Student Branch",
+      "years": "12.2020 - 10.2021 ",
+      "mainTech": [
+          "C++, Python, Tkinter"
+      ],
+      "technologies": [
+          "Event Organization",
+          "Slack Space Management",
+          "MailChimp",
+          "Google Forms"
+          
         ]
-      },
-      {
-        "title": "Cars App",
-        "startDate": "2020",
-        "description": "Prepare front-end implementation in Angular 10 for modified API made in .NET Core 3.1. The application consists of two sections: dealers and orders with typical CRUD operations. It's also possible to filter data in the tables.",
-        "images": [
-            "images/portfolio/cars/cars1.PNG",
-            "images/portfolio/cars/cars2.PNG",
-            "images/portfolio/cars/cars3.PNG",
-            "images/portfolio/cars/cars4.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/cars-api-angular",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Covid App",
-        "startDate": "2020",
-        "description": "Tiny app that shows number of illnesses, recoveries and deaths due to coronavirus pandemy in selected country. Covid app is my first approach to React framework.",
-        "images": [
-            "images/portfolio/covid/covid1.PNG",
-            "images/portfolio/covid/covid2.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/reactJS-covid-tracker",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Animal Shelter",
-        "startDate": "2019",
-        "description": "DFGDFGDFGFD",
-        "images": [
-            "images/portfolio/M3DP/M3DP1.PNG",
-            "images/portfolio/anim/anim2.PNG",
-            "images/portfolio/anim/anim3.PNG",
-            "images/portfolio/anim/anim5.PNG",
-            "images/portfolio/anim/anim6.PNG",
-            "images/portfolio/anim/anim7.PNG",
-            "images/portfolio/anim/anim8.PNG",
-            "images/portfolio/anim/anim9.PNG",
-            "images/portfolio/anim/anim10.PNG"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "HRMaster",
-        "startDate": "2019",
-        "description": "App made for Visacom Olsztyn company for university project that helps with managing recruitment process. HR Master was created with help of MDBootstrap framework, SignalR(to work in real time)and JWT(to auth it's users).",
-        "images": [
-            "images/portfolio/hrmaster/hr1.PNG",
-            "images/portfolio/hrmaster/hr2.PNG",
-            "images/portfolio/hrmaster/hr4.PNG",
-            "images/portfolio/hrmaster/hr5.PNG",
-            "images/portfolio/hrmaster/hr7.PNG",
-            "images/portfolio/hrmaster/hr9.PNG"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Beer App",
-        "startDate": "2019",
-        "description": "Front-end implementation for Punk API that lists beers from which user can find alcohol that fits picked food. It's also possible to read beer ingredients by hovering with cursor on the beer card.",
-        "images": [
-            "images/portfolio/beer/beer1.png",
-            "images/portfolio/beer/beer2.png",
-            "images/portfolio/beer/beer3.png",
-            "images/portfolio/beer/beer4.png",
-            "images/portfolio/beer/beer5.png",
-            "images/portfolio/beer/beer6.png",
-            "images/portfolio/beer/beer7.png"
-        ],
-        "url": "https://github.com/Dorota1997/BeerApp",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Billboard.js",
-        "startDate": "2018",
-        "description": "Create page project about Billboard.js library that allows to add interesting charts to the pages.",
-        "images": [
-            "images/portfolio/billbo/billbo1.PNG",
-            "images/portfolio/billbo/billbo2.PNG",
-            "images/portfolio/billbo/billbo3.PNG",
-            "images/portfolio/billbo/billbo4.PNG",
-            "images/portfolio/billbo/billbo5.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/Projektowanie_Stron/tree/master/Billboard.js",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-jquery-plain",
-            "name": "jQuery"
-          }
-        ]
-      },
-      {
-        "title": "Trees",
-        "startDate": "2018",
-        "description": "Everything about trees is my first web project which was created without any framework in order to practice skills in preparing basic page that later can be styled using css.",
-        "images": [
-            "images/portfolio/trees/drzewa1.PNG",
-            "images/portfolio/trees/drzewa2.PNG",
-            "images/portfolio/trees/drzewa3.PNG",
-            "images/portfolio/trees/drzewa4.PNG",
-            "images/portfolio/trees/drzewa5.PNG",
-            "images/portfolio/trees/drzewa6.PNG",
-            "images/portfolio/trees/drzewa7.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/Projektowanie_Stron/tree/master/Projekt%20HTML%20%2B%20CSS",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "New York University Abu Dhabi",
-        "title": "Electrical Engineering Representative",
-        "years": "05.2021 - 05.2022 ",
-        "mainTech": [
-            "GitHub , Slack"
-        ],
-        "technologies": [
-            "Website Maintenance",
-            "Event Organizing",
-            "Q&A Sessions",
-            "Orientation",
-            "Mentoring"
-        ]
-      },
-      {
-        "company": "Integrated BioElectronics Laboratory",
-        "title": "Embedded systems programmer",
-        "years": "02.2021 - 10.2021",
-        "mainTech": [
-            "C++ , Python"
-        ],
-        "technologies": [
-            "PlatformIO",
-            "Arduino",
-            "ATSAM3X" ,
-            "nRF528x SoC",
-            "Altium",
-            "Matlab",
-            "Python"
-        ]
-      },
-      {
-        "company": "Institute of Electrical and Electronics Engineers (IEEE)",
-        "title": "Vice Chair of the IEEE Student Branch",
-        "years": "12.2020 - 10.2021 ",
-        "mainTech": [
-            "C++, Python, Tkinter"
-        ],
-        "technologies": [
-            "Event Organization",
-            "Slack Space Management",
-            "MailChimp",
-            "Google Forms"
-            
-          ]
-      },
-      {
-        "company": "AI4CE lab at Tandon",
-        "title": "Student Researcher and Developer",
-        "years": "05.2020 - present ",
-        "mainTech": [
-            "C++, Python, Tkinter"
-        ],
-        "technologies": [
-            "CMake",
-            "OpenCV",
-            "PyTorch",
-            "SLAM",
-            "RANSAC",
-            "Gazebo",
-            "ROS",
-            "OpenMP"
-        ]
-      },
-      {
-        "company": "NetBio Group",
-        "title": "Undergraduate Researcher",
-        "years": "01.2020 - 06.2020",
-        "mainTech": [
-            "Python, Matlab"
-        ],
-        "technologies": [
-            "Computational Physics",
-            "Mathematical Modelling",
-            "ODE45",
-            "Scipy",
-            "odeint"
-        ]
-      },
-      {
-        "company": "Habitat for Humanity",
-        "title": "Engineering Volunteer",
-        "years": "01.2019 - 06.2019",  
-        "mainTech": [
-            "Volunteering"
-        ],
-        "technologies": [
-            "Ethnographic Studies",
-            "Manual Labor in Construction",
-            "Engineering Ethics Case Studies"
-        ]
-      }
-    ]
-  }
+    },
+    {
+      "company": "AI4CE lab at Tandon",
+      "title": "Student Researcher and Developer",
+      "years": "05.2020 - present ",
+      "mainTech": [
+          "C++, Python, Tkinter"
+      ],
+      "technologies": [
+          "CMake",
+          "OpenCV",
+          "PyTorch",
+          "SLAM",
+          "RANSAC",
+          "Gazebo",
+          "ROS",
+          "OpenMP"
+      ]
+    },
+    {
+      "company": "NetBio Group",
+      "title": "Undergraduate Researcher",
+      "years": "01.2020 - 06.2020",
+      "mainTech": [
+          "Python, Matlab"
+      ],
+      "technologies": [
+          "Computational Physics",
+          "Mathematical Modelling",
+          "ODE45",
+          "Scipy",
+          "odeint"
+      ]
+    },
+    {
+      "company": "Habitat for Humanity",
+      "title": "Engineering Volunteer",
+      "years": "01.2019 - 06.2019",  
+      "mainTech": [
+          "Volunteering"
+      ],
+      "technologies": [
+          "Ethnographic Studies",
+          "Manual Labor in Construction",
+          "Engineering Ethics Case Studies"
+      ]
+    }
+  ]
+}
