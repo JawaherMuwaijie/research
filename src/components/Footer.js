@@ -22,8 +22,7 @@ class Footer extends Component {
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
-              "Copyright ©"
-               "Uljad Berdica"
+              "Uljad Berdica ©"
               </small>
             </div>
           </div>
