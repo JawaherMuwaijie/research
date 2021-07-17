@@ -113,9 +113,9 @@
       "description": "Cells are complex biochemical systems functioning under finite resources which are shared between growth and production. The process and outcomes of this allocation are not fully understood. This paper details a model consisting of coupled differential equations that seeks to shed light over this phenomena. This deterministic model focuses on allocation trade-offs and is based on a sufficient level of complexity that does not obscure the core biochemistry of the products. Equations used to model the spread of epidemics were adapted for such purposes. ",
       "images": [
           "images/portfolio/celldynamics/bigpic.jpg",
+          "images/portfolio/celldynamics/eqs.jpg",
           "images/portfolio/celldynamics/expl1.jpg",
-          "images/portfolio/celldynamics/expl2.jpg",
-          "images/portfolio/celldynamics/eqs.jpg"
+          "images/portfolio/celldynamics/expl2.jpg"
 
       ],
       "url": "https://drive.google.com/drive/folders/1N1bPkXPKm2DLwyBhe4QnnXXe3i8_zhfA",
