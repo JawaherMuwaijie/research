@@ -11,216 +11,191 @@
     },
     "projects": [
       {
-        "title": "React Portfolio",
-        "description": "Projekt szablonu portfolio w React, który może zostać wykorzystany przez innych użytkowników np. serwisu GitHub. Posiada wydzielone sekcje 'O mnie', 'Projekty', 'Umiejętności' i 'Doświadczenie'. Zawiera także funkcje zmiany motywu oraz języka.",
+        "title": "Spines",
+        "startDate": "2021",
+        "description": "It will be worth the wait!!!",
         "images": [
-            "images/portfolio/portfolio/header.png",
-            "images/portfolio/portfolio/about.png",
-            "images/portfolio/portfolio/projects.png",
-            "images/portfolio/portfolio/skills.png",
-            "images/portfolio/portfolio/experience.png"
-        ],
-        "url": "https://github.com/Dorota1997/react-frontend-dev-portfolio",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-sass-original",
-            "name": "Sass"
-          }
-        ]
-      },
-        {
-        "title": "Cars App",
-        "description": "Przygotowanie front-endu w Angular 10 dla zmodyfikowanego API w .NET Core 3.1 o tematyce samochodowej. Aplikacja składa się z dwóch sekcji: dealerów i zamówień z typowymi operacjami CRUD. Można także filtrować dane w tabelach.",
-        "images": [
-            "images/portfolio/cars/cars1.PNG",
-            "images/portfolio/cars/cars2.PNG",
-            "images/portfolio/cars/cars3.PNG",
-            "images/portfolio/cars/cars4.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/cars-api-angular",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Covid App",
-        "description": "Drobna aplikacja, która prezentuje liczbę zachorowań, wyzdrowień i zgonów z powodu pandemii koronawirusa w wybranym państwie. Aplikacja stanowi moje pierwsze podejście do framework'a React.",
-        "images": [
-            "images/portfolio/covid/covid1.PNG",
-            "images/portfolio/covid/covid2.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/reactJS-covid-tracker",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Animal Shelter",
-        "description": "Aplikacja webowa działająca w czasie rzeczywistym, wykonana w ramach pracy inżynierskiej. Projekt przeznaczony jest dla schronisk, które zajmują się adopcją psów i kotów. W oparciu o aplikację Animal Shelter administratorzy mogą łatwo zarządzać adopcją, newsami, dokumentami, a użytkownicy mogą zgłaszać chęć adopcji zwierzęcia poprzez Internet. W ramach Animal Shelter wykorzystałam m.in. JWT, MDBootstrap oraz SignalR.",
-        "images": [
-            "images/portfolio/anim/anim1.PNG",
-            "images/portfolio/anim/anim2.PNG",
-            "images/portfolio/anim/anim3.PNG",
-            "images/portfolio/anim/anim5.PNG",
-            "images/portfolio/anim/anim6.PNG",
-            "images/portfolio/anim/anim7.PNG",
-            "images/portfolio/anim/anim8.PNG",
-            "images/portfolio/anim/anim9.PNG",
-            "images/portfolio/anim/anim10.PNG"
+          "images/portfolio/Coming-Soon.jpg"
+  
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
-        "title": "HR Master",
-        "description": "Aplikacja stworzona dla firmy Visacom Olsztyn w ramach projektu zespołowego do zarządzania rekrutacją pracowników. HR Master został przygotowany przy pomocy frameworka MDBootstrap. Wykorzystano także SignalR, żeby aplikacja działała w czasie rzeczywistym oraz JWT do uwierzytelniania użytkowników.",
+        "title": "The Pressure is on You",
+        "startDate": "2021",
+        "description": "This project was part of the Embedded Systems Class in Spring 2021. The objective was to build a semiautomated blood pressure and heart rate measuring device by interfacing with an I2C Honeywell ® Pressure Sensor through an ATmega32u4 microcontroller. In order to challenge ourselves further, our group decided to use pyserial in order to plot the pressure measurements in real time and create a user interface that allows for data to be imported from older time points or collected in real time from scratch.",
         "images": [
-            "images/portfolio/hrmaster/hr1.PNG",
-            "images/portfolio/hrmaster/hr2.PNG",
-            "images/portfolio/hrmaster/hr4.PNG",
-            "images/portfolio/hrmaster/hr5.PNG",
-            "images/portfolio/hrmaster/hr7.PNG",
-            "images/portfolio/hrmaster/hr9.PNG"
+            "images/portfolio/pulse/analysis.png",
+            "images/portfolio/pulse/I2C.jpg",
+            "images/portfolio/pulse/cuff_measurement.jpg",
+            "images/portfolio/pulse/pressure_raw.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/uljadberdica1000/Embedded_Challenge_Spr21",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-arduino-plain",
+            "name": "Arduino"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
-        "title": "Beer App",
-        "description": "Implementacja warstwy front-end dla darmowego API (Punk API) w którym listowane są piwa z których można następnie wyszukać pasujące alkohole do wybranego dania. Można także odczytać skład piwa poprzez najechanie na kartę kursorem.",
+        "title": "Multi-Robot Simulation Framework",
+        "startDate": "2021",
+        "description": "Our team developed a framework that bridges the gap between mobile printing robots and realistic material simulations. This framework that includes particle-based viscoelastic fluid simulation and particle-to-mesh conversion in the widely adopted Gazebo robotics simulator, avoiding the bottlenecks of traditional additive manufacturing simulation approaches. This framework is the first of its kind  that enables the simulation of robot arms or mobile manipulators together with viscoelastic fluids.",
         "images": [
-            "images/portfolio/beer/beer1.png",
-            "images/portfolio/beer/beer2.png",
-            "images/portfolio/beer/beer3.png",
-            "images/portfolio/beer/beer4.png",
-            "images/portfolio/beer/beer5.png",
-            "images/portfolio/beer/beer6.png",
-            "images/portfolio/beer/beer7.png"
+            "images/portfolio/M3DP/dropping.png",
+            "images/portfolio/M3DP/param1.jpg",
+            "images/portfolio/M3DP/pipeline1.jpg",
+            "images/portfolio/M3DP/robotsworks.png",
+            "images/portfolio/M3DP/teaser.png"
         ],
-        "url": "https://github.com/Dorota1997/BeerApp",
+        "url": "https://www.linkedin.com/posts/uljadberdica_stem-robot-gazebo-activity-6816239887751110656-MEAI",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Billboard.js",
-        "description": "Przygotowanie strony o bibliotece Billboard.js, która pozwala na dodawanie ciekawych wykresów na stronach.",
-        "images": [
-            "images/portfolio/billbo/billbo1.PNG",
-            "images/portfolio/billbo/billbo2.PNG",
-            "images/portfolio/billbo/billbo3.PNG",
-            "images/portfolio/billbo/billbo4.PNG",
-            "images/portfolio/billbo/billbo5.PNG"
-        ],
-        "url": "https://github.com/Dorota1997/Projektowanie_Stron/tree/master/Billboard.js",
-        "technologies": [
+            "class": "devicon-bitbucket-original",
+            "name": "Bitbucket"
+          },
           {
             "class": "devicon-html5-plain",
-            "name": "HTML5"
+            "name": "HTML"
+          }
+        ]
+      },
+      {
+        "title": "Heart Rate Measurement PCB",
+        "startDate": "2020",
+        "description": "This project was the finalization of my Electronics I class. The heart rate monitor connects to the electrode and outputs the final QRS waveform that can be measured with an oscilloscope connected to the exposed pins. An extensive literature review was performed on the physiology of the generation of the cardiac muscle signal and the forms of its conduction. The ECG device was implemented with a right lec circuit for the common mode rejection, an instrumentation amplifier tested on Cadence Virtuoso and an active band-pass filter along with the necessary decoupling capacitors. Altium was used to prepare the final PCB for manufacture.",
+        "images": [
+            "images/portfolio/ECG/pcb.jpg",
+            "images/portfolio/ECG/schematic1.jpg"
+        ],
+        "url": "https://drive.google.com/drive/folders/1FGnCuJrwKWiO48tweAPvH9bvPuundnva?usp=sharing",
+        "technologies": [
+          {
+            "class": "devicon-matlab-plain",
+            "name": "Altium"
           },
           {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
+            "class": "devicon-matlab-plain",
+            "name": "Cadence"
+          },
+          {
+            "class": "devicon-matlab-plain colored",
+            "name": "Matlab"
+          }
+        ]
+      },
+      {
+        "title": "Cellular Resource Allocation",
+        "startDate": "2020",
+        "description": "Cells are complex biochemical systems functioning under finite resources which are shared between growth and production. The process and outcomes of this allocation are not fully understood. This paper details a model consisting of coupled differential equations that seeks to shed light over this phenomena. This deterministic model focuses on allocation trade-offs and is based on a sufficient level of complexity that does not obscure the core biochemistry of the products. Equations used to model the spread of epidemics were adapted for such purposes. ",
+        "images": [
+            "images/portfolio/celldynamics/bigpic.jpg",
+            "images/portfolio/celldynamics/expl1.jpg",
+            "images/portfolio/celldynamics/expl2.jpg",
+            "images/portfolio/celldynamics/eqs.jpg"
+  
+        ],
+        "url": "https://drive.google.com/drive/folders/1N1bPkXPKm2DLwyBhe4QnnXXe3i8_zhfA",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Volatect - iGEM 2019",
+        "startDate": "2019",
+        "description": "I was project manager of the engineering research and development team in the summer for my university's iGEM team which was competing in the Diagnostics Track. Our project is named Volatect: a point of care diagnostics device coupled with a results database and API, enabling the swift detection, surveillance and control of epidemic-prone diseases. The novel DETECTR technique, combining Recombinase Polymerase Amplification and CRISPR-Cas12, is applied to collected saliva samples on a proprietary microfluidic chip to detect a customizable assay of infectious diseases.",
+        "images": [
+            "images/portfolio/iGEM/logo.jpg",
+            "images/portfolio/iGEM/fluidics.jpg",
+            "images/portfolio/iGEM/fluidics2.jpg",
+            "images/portfolio/iGEM/device.jpg"
+        ],
+        "url": "https://2019.igem.org/Team:NYU_Abu_Dhabi/Description",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          },
+          {
+            "class": "devicon-arduino-plain",
+            "name": "Arduino"
+          },
+          {
+            "class": "devicon-raspberrypi-line",
+            "name": "Raspbery Pi"
           },
           {
             "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-jquery-plain",
-            "name": "jQuery"
+            "name": "Bootstrap Studio"
           }
         ]
       },
       {
-        "title": "Trees",
-        "description": "Wszystko o drzewach to mój pierwszy projekt strony, który został zrobiony bez frameworków w celu ćwiczenia umiejętności przygotowania bazy strony, która ma być następne ostylowana za pomocą css.",
+        "title": "WeFxBo",
+        "startDate": "2018",
+        "description": "Create page project about Billboard.js library that allows to add interesting charts to the pages.",
         "images": [
-            "images/portfolio/trees/drzewa1.PNG",
-            "images/portfolio/trees/drzewa2.PNG",
-            "images/portfolio/trees/drzewa3.PNG",
-            "images/portfolio/trees/drzewa4.PNG",
-            "images/portfolio/trees/drzewa5.PNG",
-            "images/portfolio/trees/drzewa6.PNG",
-            "images/portfolio/trees/drzewa7.PNG"
+            "images/portfolio/wefxbo/setup.jpg",
+            "images/portfolio/wefxbo/curl.jpg"
         ],
-        "url": "https://github.com/Dorota1997/Projektowanie_Stron/tree/master/Projekt%20HTML%20%2B%20CSS",
+        "url": "https://drive.google.com/drive/folders/16a6hw7-Kh-zVdPvd2BmkfIh7-mSgjqgx",
         "technologies": [
           {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Explore Mars Competition",
+        "startDate": "2018",
+        "description": "This is the first project of my undergraduate research career and it proposes a theoretical model of Molten Salt Reactor and an ANSYS Fluent simulation. The chosen fuel and the plane design were meant to enhance low speed travel and exploration. Thorium was chosen due its inability to be weaponized and its abundance both on Earth and Mars. The plane is meant to push humanity to a new age of exploration and sustainable living on a terraformed Mars.",
+        "images": [
+            "images/portfolio/Mars/sim1.jpg",
+            "images/portfolio/Mars/okoyama1.jpg",
+            "images/portfolio/Mars/saying1.jpg"
+        ],
+        "url": "https://drive.google.com/file/d/1mPoUzyauq40XAx-htKS6-bZ7_M4kePRS/view?usp=sharing",
+        "technologies": [
+          {
+            "class": "devicon-matlab-plain",
+            "name": "Matlab"
           },
           {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
+            "class": "devicon-matlab-plain",
+            "name": "Ansys"
+          },
+          {
+            "class": "devicon-matlab-plain",
+            "name": "Solidworks"
           }
+          
         ]
       }
     ],
