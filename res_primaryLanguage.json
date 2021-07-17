@@ -113,9 +113,9 @@
       "description": "Cells are complex biochemical systems functioning under finite resources which are shared between growth and production. The process and outcomes of this allocation are not fully understood. This paper details a model consisting of coupled differential equations that seeks to shed light over this phenomena. This deterministic model focuses on allocation trade-offs and is based on a sufficient level of complexity that does not obscure the core biochemistry of the products. Equations used to model the spread of epidemics were adapted for such purposes. ",
       "images": [
           "images/portfolio/celldynamics/bigpic.jpg",
+          "images/portfolio/celldynamics/eqs.jpg",
           "images/portfolio/celldynamics/expl1.jpg",
-          "images/portfolio/celldynamics/expl2.jpg",
-          "images/portfolio/celldynamics/eqs.jpg"
+          "images/portfolio/celldynamics/expl2.jpg"
 
       ],
       "url": "https://drive.google.com/drive/folders/1N1bPkXPKm2DLwyBhe4QnnXXe3i8_zhfA",
@@ -159,7 +159,7 @@
     {
       "title": "WeFxBo",
       "startDate": "2018",
-      "description": "Create page project about Billboard.js library that allows to add interesting charts to the pages.",
+      "description": "This project consisted in assembling an InMoov open source 3D Printed robotic arm. In addition to assembly, the hand motions were mapped to Servo Angles using a Leap Motion (Ultraleap as of 2019) hand motion sensor. The actuation was done through taught wires connecting the joints to the servos.",
       "images": [
           "images/portfolio/wefxbo/setup.jpg",
           "images/portfolio/wefxbo/curl.jpg"
