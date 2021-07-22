@@ -41,6 +41,11 @@
             "level": "15"
           },
           {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain",
+            "level": "15"
+          },
+          {
             "name": "HTML",
             "class": "devicon-html5-plain",
             "level": "15"
